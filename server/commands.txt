@@ -20,3 +20,6 @@ Route params: Identificar qual recurso eu quero atualizar ou deletar
 Query params: paginacao, filtros, ordenacao
 
 KNEX: yarn add knex sqlite3
+
+Permitir que apps em enderecos diferentes acesse nossa api - yarn add cors
+tipos do cors - yarn add @types/cors -D
