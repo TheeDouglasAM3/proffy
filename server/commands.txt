@@ -9,3 +9,14 @@ em tsconfig.json
 --respawn -> a aplicacao continua rodando quando chega ao fim, e se alterar o arquivo, ele atualiza automatico
 
 yarn add express
+
+GET: buscar/listar
+POST: criar
+PUT: atualizar
+DELETE: deletar
+
+Corpo (Request body): dados para a criacao ou atualizacao de um registro
+Route params: Identificar qual recurso eu quero atualizar ou deletar
+Query params: paginacao, filtros, ordenacao
+
+KNEX: yarn add knex sqlite3
