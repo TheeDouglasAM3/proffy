@@ -1,0 +1,11 @@
+para instalar typescript rodar comando yarn add typescript -D
+para gerar esse arquivo rodar comando yarn tsc --init
+para ficar observando todas as alteracoes yarn add ts-node-dev -D
+
+em tsconfig.json
+"start": "tsnd --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+--transpile-only -> nao vai verificar erros no arquivo
+--ignore-watch node_modules -> vai ignorar a conversao/verificacao de codigos na pasta node_modules
+--respawn -> a aplicacao continua rodando quando chega ao fim, e se alterar o arquivo, ele atualiza automatico
+
+yarn add express
