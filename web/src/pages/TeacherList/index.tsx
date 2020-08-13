@@ -84,7 +84,11 @@ function TeacherList(){
 
             <main>
                 {teachers.map((teacher: Teacher) => {
-                    return <TeacherItem key={teacher.id} teacher={teacher} />
+                    return <TeacherItem 
+                        key={teacher.id} 
+                        teacher={teacher} 
+                        textWhatsapp="Estou interessado na sua aula!" 
+                    />
                 })}
             </main>
         </div>
