@@ -16,9 +16,10 @@ export interface Teacher {
 
 interface TeacherItemProps {
     teacher: Teacher
+    textWhatsapp: string
 }
 
-const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
+const TeacherItem: React.FC<TeacherItemProps> = ({ teacher, textWhatsapp}) => {
 
     return (
         <article className="teacher-item">
@@ -35,14 +36,14 @@ const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
             <footer>
                 <p>
                     Preço/hora
-                            <strong>R$ {teacher.cost}</strong>
+                            <strong>R$ {teacher.cost},00</strong>
                 </p>
 
-                <button type="button">
+                <a href={`https://wa.me/${teacher.whatsapp}?text=${textWhatsapp}`}>
                     <img src={whatsappIcon} alt="whatsapp" />
 
                     Entrar em contato
-                </button>
+                </a>
             </footer>
         </article>
     )
