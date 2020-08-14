@@ -42,7 +42,7 @@ const TeacherItem: React.FC<TeacherItemProps> = ({ teacher, textWhatsapp}) => {
             <footer>
                 <p>
                     Preço/hora
-                            <strong>R$ {teacher.cost},00</strong>
+                            <strong>R$ {teacher.cost}</strong>
                 </p>
 
                 <a 
