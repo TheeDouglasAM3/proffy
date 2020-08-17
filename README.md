@@ -61,7 +61,7 @@ $ npm install
 ou
 $ yarn start
 ```
-Acesse a API: http://localhost:3333/
+Acesse o servidor em: http://localhost:3333/
 
 ### Rode o website (front-end)
 
@@ -79,7 +79,7 @@ $ npm install
 ou
 $ yarn start
 ```
-Acesse: http://localhost:3000/ para ver o resultado.
+Acesse o website em: http://localhost:3000/
 
 # Problemas
 Se você encontrou algum bug, se sinta livre **para criar uma nova issue**  [clicando aqui!](https://github.com/TheeDouglasAM3/proffy). Se você já encontrou a solução para o problema, **faça um pull request**!
