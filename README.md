@@ -10,7 +10,7 @@
    </a>
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/TheeDouglasAM3/proffy?color=774DD6">
 
-  <a href="https://github.com/TheeDouglasAM3/MyHackerRankSolutions/commits/master">
+  <a href="https://github.com/TheeDouglasAM3/proffy/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/TheeDouglasAM3/proffy?color=774DD6">
   </a> 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-8257E5">
@@ -43,7 +43,7 @@ Neste projeto foram utilizadas as seguintes tecnologias:
 # Como rodar o projeto
 ```bash
 # Copie o repositório
-$ git clone https://github.com/RafaelGoulartB/Proffy.git
+$ git clone https://github.com/TheeDouglasAM3/proffy.git
 ```
 ### Rode o servidor (back-end)
 
@@ -82,7 +82,7 @@ $ yarn start
 Acesse o website em: http://localhost:3000/
 
 # Problemas
-Se você encontrou algum bug, se sinta livre **para criar uma nova issue**  [clicando aqui!](https://github.com/TheeDouglasAM3/proffy). Se você já encontrou a solução para o problema, **faça um pull request**!
+Se você encontrou algum bug, se sinta livre **para criar uma nova issue**  [clicando aqui!](https://github.com/TheeDouglasAM3/proffy/issues). Se você já encontrou a solução para o problema, **faça um pull request**!
 
 # Licença
 
