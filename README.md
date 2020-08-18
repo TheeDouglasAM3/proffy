@@ -24,11 +24,15 @@ Projeto criado durante a semana Next Level Week #2 [@Rocketseat](https://github.
 
 # :star: Sumário
 
+* [Descrição](#descrição)
 * [Demonstração da aplicação](#demonstração-da-aplicação) 
 * [Tecnologias](#tecnologias)
 * [Como rodar o projeto](#como-rodar-o-projeto)
 * [Achou algum bug?](#problemas)
 * [Licença](#licença)
+
+# Descrição
+Proffy é uma plataforma de estudos online, onde qualquer professor poderá criar um cadastro indicando a matéria que deseja lecionar, o valor que irá cobrar e os horários de disponibilidade. Por outro lado, os alunos poderão filtrar os professores por matéria e disponibilidade, e os mesmos serão listados, e com isso o aluno poderá contatar o professor via whatsapp.
 
 # Demonstração da aplicação
 O projeto desenvolvido neste repositório está disponível em: 
