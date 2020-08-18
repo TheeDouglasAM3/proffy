@@ -84,7 +84,7 @@ ou
 $ yarn install
 
 # Rode a aplicação
-$ npm install
+$ npm start
 ou
 $ yarn start
 ```
