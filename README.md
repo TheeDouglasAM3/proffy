@@ -56,10 +56,15 @@ $ npm install
 ou
 $ yarn install
 
-# Rode a aplicação
-$ npm install
+# Rode as migrações do banco de dados
+$ npm run knex:migrate
 ou
-$ yarn start
+$ yarn knex:migrate
+
+# Rode a aplicação
+$ npm run dev
+ou
+$ yarn dev
 ```
 Acesse o servidor em: http://localhost:3333/
 
